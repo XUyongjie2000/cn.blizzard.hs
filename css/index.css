@@ -22,17 +22,17 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  animation: flipouttoleft 2s;
+  animation: flipintoright 2s;
 }
-@keyframes flipouttoleft {
+@keyframes flipintoright {
   from {
-          transform: rotateY(90deg)  scale(0.9);
+    transform: rotateY(90deg) scale(0.9);
   }
+
   to {
-          transform: rotateY(0);
+    transform: rotateY(0);
   }
 }
-
 .heard {
   z-index: 9;
   position: relative;
