@@ -147,7 +147,7 @@ body {
   border: 1px solid #8bb6ad;
   color: #8bb6ad;
   font-size: 14px;
-  height: 26px;
+  height: 42px;
   line-height: 26px;
   padding: 7px 40px 7px 10px;
   width: 250px;
@@ -364,7 +364,7 @@ a {
   bottom: -20px;
   z-index: 233;
 }
-.lunboyou a {
+.lunboyou q {
   position: absolute;
   background: url(../images/lunboshang.png);
   background-size: 265px 170px;
@@ -532,4 +532,247 @@ a {
       1
     );
   }
+}
+/* 下载类型 */
+.lunboyou.download {
+  width: 297px;
+  height: 228px;
+  padding-top: 80px;
+  position: absolute;
+  top: 130px;
+  left: 18px;
+}
+.deviceIcon li {
+  float: left;
+  position: relative;
+}
+.deviceIcon li a.pc {
+  position: absolute;
+  left: 50px;
+  top: 208px;
+  width: 80px;
+  height: 90px;
+  display: block;
+  background: url(../images/xiazai.png) no-repeat;
+  background-position: 0px -87px;
+}
+/* 碰到下载图标时候 精灵图改变位置 */
+.deviceIcon li a.pc:hover {
+  background-position: 0px 0px;
+}
+.deviceIcon li a.ios {
+  position: absolute;
+  left: 130px;
+  top: 208px;
+  width: 80px;
+  height: 90px;
+  display: block;
+  background: url(../images/xiazai.png) no-repeat;
+  background-position: -80px -87px;
+}
+/* 碰到下载图标时候 精灵图改变位置 */
+.deviceIcon li a.ios:hover {
+  background-position: -80px 0px;
+}
+.deviceIcon li a.android {
+  position: absolute;
+  left: 210px;
+  top: 208px;
+  width: 80px;
+  height: 90px;
+  display: block;
+  background: url(../images/xiazai.png) no-repeat;
+  background-position: -160px -87px;
+}
+/* 碰到下载图标时候 精灵图改变位置 */
+.deviceIcon li a.android:hover {
+  background-position: -160px 0px;
+}
+/* 下载方式和官方插件 */
+
+.features a.downloadBtn {
+  position: absolute;
+  width: 220px;
+  height: 63px;
+  display: block;
+  top: 320px;
+  left: 60px;
+  z-index: 0;
+  overflow: hidden;
+  background: url(../images/chajianxiazai.png) no-repeat -29px -365px;
+  /* display: none; */
+}
+.features a.downloadBtnpc {
+  position: absolute;
+  width: 220px;
+  height: 63px;
+  display: block;
+  top: 385px;
+  left: 60px;
+  z-index: 0;
+  overflow: hidden;
+  background: url(../images/chajianxiazai.png) no-repeat -29px -365px;
+  background-position: -29px -480px;
+  /* display: none; */
+}
+
+/* 悬浮的石头 */
+.xuanfu {
+  position: absolute;
+  width: 183px;
+  height: 270px;
+}
+.xuanfu p {
+  position: fixed;
+  left: 120px;
+  top: 500px;
+  width: 183px;
+  height: 270px;
+  background: url(../images/backgrongd-left.png);
+  animation: titleBeat 3s linear infinite;
+}
+@keyframes titleBeat {
+  0% {
+    top: 470px;
+  }
+  50% {
+    top: 500px;
+  }
+  100% {
+    top: 470px;
+  }
+}
+.xuanfu b {
+  position: fixed;
+  left: 1520px;
+  top: 360px;
+  width: 317px;
+  height: 522px;
+  background: url(../images/backgrongd-right.png);
+  animation: xuanfuright 3s linear infinite;
+}
+@keyframes xuanfuright {
+  0% {
+    top: 320px;
+  }
+  50% {
+    top: 360px;
+  }
+  100% {
+    top: 320px;
+  }
+}
+/* 点击改变iospc精灵图 */
+.pc.actives {
+  background-position-y: -177px !important;
+}
+.ios.actives {
+  background-position-y: -177px !important;
+}
+.android.actives {
+  background-position-y: -177px !important;
+}
+/* ios下载按钮 */
+.features a.downloadBtnios {
+  position: absolute;
+  width: 220px;
+  height: 63px;
+  display: block;
+  top: 320px;
+  left: 60px;
+  z-index: 0;
+  overflow: hidden;
+  background: url(../images/chajianxiazai.png) no-repeat -29px -40px;
+  display: none;
+}
+.features a.downloadBtnios-pc {
+  position: absolute;
+  width: 220px;
+  height: 63px;
+  display: block;
+  top: 385px;
+  left: 60px;
+  z-index: 0;
+  overflow: hidden;
+  background: url(../images/chajianxiazai.png) no-repeat -29px -365px;
+  background-position: -29px -144px;
+  display: none;
+}
+.features a.downloadBtnandroid {
+  position: absolute;
+  width: 220px;
+  height: 63px;
+  display: block;
+  top: 320px;
+  left: 60px;
+  z-index: 0;
+  overflow: hidden;
+  background: url(../images/chajianxiazai.png) no-repeat -29px -244px;
+  display: none;
+}
+/* 轮播图下面的新闻 */
+.caidan p {
+  left: 50px;
+  top: 355px;
+  position: absolute;
+  width: 308px;
+  height: 211px;
+  background: url(../images/caidanbeijing.png);
+}
+.caidan img {
+  position: absolute;
+  width: 284px;
+  height: 144px;
+  left: 12px;
+  top: 15px;
+}
+.caidan b {
+  position: absolute;
+  color: #2e1b1e;
+  font-size: 16px;
+  left: 60px;
+  top: 175px;
+}
+.caidan1 p {
+  left: 50px;
+  top: 355px;
+  position: absolute;
+  width: 308px;
+  height: 211px;
+  background: url(../images/caidanbeijing.png);
+}
+.caidan1 img {
+  position: absolute;
+  width: 284px;
+  height: 144px;
+  left: 12px;
+  top: 15px;
+}
+.caidan1 b {
+  position: absolute;
+  color: #2e1b1e;
+  font-size: 16px;
+  left: 60px;
+  top: 175px;
+}
+.caidan1 {
+  position: absolute;
+  left: 315px;
+  top: 0;
+}
+.caidan {
+  position: absolute;
+  left: -15px;
+  top: 0;
+}
+.caidan img:hover {
+  border: 2px solid #76b900;
+}
+.caidan1 img:hover {
+  border: 2px solid #76b900;
+}
+.jiange {
+  position: absolute;
+  left: 30px;
+  top: 562px;
 }
