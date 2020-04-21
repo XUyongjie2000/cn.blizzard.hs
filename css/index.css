@@ -24,6 +24,7 @@ body {
   width: 100%;
   animation: flipintoright 2s;
 }
+/* 页面进入  logo转一圈 */
 @keyframes flipintoright {
   from {
     transform: rotateY(90deg) scale(0.9);
@@ -152,6 +153,7 @@ body {
 .list-3 div p:hover {
   color: #b9ef97;
 }
+/* 底部 */
 .foot {
   position: relative;
   bottom: -500px;
@@ -289,4 +291,52 @@ body {
   color: #552c09;
   bottom: 100px;
   right: 500px;
+}
+
+.dianji {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+}
+.dianji img {
+  position: absolute;
+  left: 1470px;
+  bottom: 85px;
+  width: 16px;
+  height: 16px;
+}
+.xianshi {
+  background-color: #1f1009;
+  position: absolute;
+  width: 777px;
+  height: 65px;
+  left: 710px;
+  bottom: 10px;
+  display: none;
+}
+.xianshi p {
+  color: #b5a89f;
+  float: left;
+  margin-left: 50px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.xianshi b {
+  color: #b5a89f;
+  float: left;
+  margin-left: 65px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.xianshi a {
+  color: #ea8631;
+  float: left;
+  margin-left: 435px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.xianshi p:hover {
+  color: #ffffff;
 }
