@@ -55,3 +55,17 @@ $(".android").on("click", function () {
   $(".downloadBtnios").css({ display: "none" });
   $(".downloadBtnios-pc").css({ display: "none" });
 });
+let oBox2 = $("#navWrap").offset().top;
+$(document).scroll(function () {
+  if ($(document).scrollTop() >= oBox2) {
+    $("#navWrap").css({
+      position: "fixed",
+      top: 0,
+    });
+  } else {
+    $("#navWrap").css({
+      position: "absolute",
+      top: 233,
+    });
+  }
+});

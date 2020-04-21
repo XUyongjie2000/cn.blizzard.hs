@@ -7,6 +7,7 @@ body {
 }
 body {
   background: url(../images/homebackgrongd.jpg) no-repeat 50% 0 fixed;
+  background-color: #ead5aa;
 }
 /* 导航栏 */
 .head {
@@ -169,7 +170,7 @@ body {
   margin-left: -512px;
   top: 223px;
   width: 1024px;
-  z-index: 100;
+  z-index: 234;
 }
 #nav {
   background: url(../images/home-tab.jpg) no-repeat 3px 0;
@@ -316,14 +317,18 @@ a {
   z-index: 101;
 }
 .home-tab1 p {
+  left: -450px;
+  top: -278px;
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 89px;
+  height: 110px;
   background: url(../images/home-tab-1.png);
-  background-position: -10px -35px;
+  background-position: -10px -23px;
   z-index: 2;
 }
 .home-tab1 b {
+  left: -450px;
+  top: -272px;
   position: absolute;
   width: 75px;
   height: 75px;
@@ -332,6 +337,8 @@ a {
   z-index: 2;
 }
 .home-tab1 a {
+  left: -440px;
+  top: -273px;
   margin-left: 1000px;
   position: absolute;
   width: 75px;
