@@ -69,3 +69,13 @@ $(document).scroll(function () {
     });
   }
 });
+$(document).scroll(function () {
+  if ($(document).scrollTop() >= 500) {
+    $(".gotop").show();
+  } else {
+    $(".gotop").hide();
+  }
+});
+$("a").click(function () {
+  $(document).scrollTop(0);
+});

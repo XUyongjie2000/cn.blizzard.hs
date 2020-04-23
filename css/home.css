@@ -2107,6 +2107,25 @@ a {
   font-size: 15px;
   color: #ffb100;
   font-weight: 700;
+  transition: all 1s;
+  background-image: url("../images/fanzhuan.png");
+}
+.box {
+  background-color: rgba(96, 52, 18, 0.6);
+  position: fixed;
+  right: 30px;
+  width: 82px;
+  height: 82px;
+  bottom: 280px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 82px;
+  font-size: 15px;
+  color: #ffb100;
+  font-weight: 700;
+  transition: all 1s;
+  transform: rotateYX(180deg);
+  background-image: url("../images/fanzhuan1.png");
 }
 .xuanfuchuang .xuanfuchuangweibo {
   background-color: rgba(96, 52, 18, 0.6);
@@ -2122,6 +2141,7 @@ a {
   color: #ffb100;
   font-weight: 700;
 }
+
 .xuanfuchuang .gotop {
   background-color: rgba(96, 52, 18, 0.6);
   position: fixed;
@@ -2135,4 +2155,40 @@ a {
   font-size: 15px;
   color: #ffb100;
   font-weight: 700;
+  display: none;
+}
+
+/* 右侧新闻栏 */
+.youcexinwen {
+  position: absolute;
+  top: 590px;
+  right: -14px;
+  width: 340px;
+  height: 2000px;
+  background: url(../images/youbeijing.png);
+}
+/* 第一个新闻 */
+.younew1 {
+  position: absolute;
+  right: 20px;
+  top: 45px;
+  width: 305px;
+  height: 216px;
+  background: url(../images/backgroundyouce.jpg) no-repeat;
+}
+.younew1 span {
+  position: absolute;
+  left: 15px;
+  top: 33px;
+  background-image: url(../images/new.ico);
+  background-position: -88px -3px;
+  width: 30px;
+  height: 30px;
+}
+.younew1 h3 {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #03345f;
 }
