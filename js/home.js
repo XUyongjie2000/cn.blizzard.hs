@@ -91,5 +91,7 @@ function getLoc() {
     $(".box").addClass("xuanfuchuangma");
   }
   console.log($(".box").hasClass("xuanfuchuangma"));
-  // })
 }
+$(".jianianhua").on("click", function () {
+  $(".Navbar-modalContent").toggle();
+});
