@@ -2176,7 +2176,7 @@ a {
   height: 216px;
   background: url(../images/backgroundyouce.jpg) no-repeat;
 }
-.younew1 span {
+.younew1 .younewtubiao {
   position: absolute;
   left: 15px;
   top: 33px;
@@ -2186,6 +2186,616 @@ a {
   height: 30px;
 }
 .younew1 h3 {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #03345f;
+}
+.younew1b {
+  position: absolute;
+  top: 85px;
+  left: 27px;
+}
+.younew1b .chonghe {
+  position: absolute;
+}
+.younew1b .chonghe1 {
+  position: absolute;
+}
+.younew1b .chonghe1:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1);
+}
+.younew1b .xiabiaoti {
+  position: absolute;
+  top: 145px;
+  left: 23px;
+  width: 200px;
+  font-size: 16px;
+  color: #251c0f;
+  text-align: center;
+  font-weight: 700;
+}
+/* 第二个新闻 */
+.younew2 {
+  position: absolute;
+  right: 20px;
+  top: 350px;
+  width: 305px;
+  height: 216px;
+  background: url(../images/backgroundyouce.jpg) no-repeat;
+}
+.younew2 .younewtubiao {
+  position: absolute;
+  left: 15px;
+  top: 33px;
+  background-image: url(../images/new.ico);
+  background-position: -46px -73px;
+  width: 30px;
+  height: 30px;
+}
+.younew2 h3 {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #03345f;
+}
+/* 第一条文字 */
+.iconyousj {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 84px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep {
+  position: absolute;
+  top: 85px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+/* 第二条文字 */
+.iconyousj1 {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 110px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep1 {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+/* 第三条文字 */
+.iconyousj2 {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 135px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep2 {
+  position: absolute;
+  top: 135px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+/* 第四条文字 */
+.iconyousj3 {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 160px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep3 {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+.more {
+  position: absolute;
+  top: 190px;
+  right: 30px;
+}
+/* 第三个新闻 */
+.younew3 {
+  position: absolute;
+  right: 20px;
+  top: 590px;
+  width: 305px;
+  height: 216px;
+  background: url(../images/backgroundyouce.jpg) no-repeat;
+}
+.younew3 .younewtubiao {
+  position: absolute;
+  left: 15px;
+  top: 33px;
+  background-image: url(../images/new.ico);
+  background-position: -88px -37px;
+  width: 30px;
+  height: 30px;
+}
+.younew3 h3 {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #03345f;
+}
+/* 第一条文字 */
+.iconyousj {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 84px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep {
+  position: absolute;
+  top: 85px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+/* 第二条文字 */
+.iconyousj1 {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 110px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep1 {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+/* 第三条文字 */
+.iconyousj2 {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 135px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep2 {
+  position: absolute;
+  top: 135px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+/* 第四条文字 */
+.iconyousj3 {
+  position: absolute;
+  background: url(../images/new.ico);
+  background-position: -137px -140px;
+  top: 160px;
+  left: 15px;
+  width: 12px;
+  height: 10px;
+}
+.sleep3 {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  color: #5b4b38;
+  font-size: 12px;
+}
+.more {
+  position: absolute;
+  top: 190px;
+  right: 30px;
+}
+/* 子模块 */
+.subModule {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  /* height: 66px; */
+  min-height: 52px;
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule .text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.subModule .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule .guide {
+  position: absolute;
+  top: -10px;
+  right: 8px;
+  width: 66px;
+  height: 66px;
+  background: url(../images/dianbuback.png);
+  background-position: 156px -279px;
+}
+.subModule .guide:hover {
+  background-position-y: -380px;
+}
+/* 第二个子模块 */
+.subModule2 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule2 .text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.subModule2 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule2 .guide2 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -780px;
+}
+.subModule2 .guide2:hover {
+  background-position: 163px -903px;
+}
+.subModule2 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第三个子模块 */
+.subModule3 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule3 .text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.subModule3 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule3 .guide3 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -1027px;
+}
+.subModule3 .guide3:hover {
+  background-position: 163px -1030px;
+}
+.subModule3 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第四个子模块 */
+.subModule4 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  /* height: 66px; */
+  min-height: 52px;
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule4 .text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.subModule4 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule4 .guide4 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -2186px;
+}
+.subModule4 .guide4:hover {
+  background-position: 163px -2287px;
+}
+.subModule4 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第五个子模块 */
+.subModule5 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule5 .text {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+.subModule5 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule5 .guide5 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -1128px;
+}
+.subModule5 .guide5:hover {
+  background-position: 163px -1243px;
+}
+.subModule5 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第六个子模块 */
+.subModule6 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule6 .text {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+.subModule6 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule6 .guide6 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -1646px;
+}
+.subModule6 .guide6:hover {
+  background-position: 163px -1735px;
+}
+.subModule6 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第七个个子模块 */
+.subModule7 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule7 .text {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+.subModule7 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule7 .guide7 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -2050px;
+}
+.subModule7 .guide7:hover {
+  background-position: 163px -2053px;
+}
+.subModule7 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第8个个子模块 */
+.subModule8 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule8 .text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.subModule8 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule8 .guide8 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -521px;
+}
+.subModule8 .guide8:hover {
+  background-position: 163px -621px;
+}
+.subModule8 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第9个个子模块 */
+.subModule9 {
+  position: absolute;
+  top: 830px;
+  left: 0;
+  width: 260px;
+  height: 66px;
+  /* min-height: 52px; */
+  margin: 10px auto;
+  border-radius: 3px;
+  background: #d1b181;
+  position: relative;
+  border: 1px solid #efd4ad;
+}
+.subModule9 .text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.subModule9 .text h4 {
+  color: #251c0f;
+  font-size: 15px;
+  font-weight: 700;
+}
+.subModule9 .guide9 {
+  position: absolute;
+  top: -7px;
+  right: 6px;
+  width: 72px;
+  height: 75px;
+  background: url(../images/dianbuback.png);
+  background-position: 163px -1353px;
+}
+.subModule9 .guide9:hover {
+  background-position: 163px -1441px;
+}
+.subModule9 .text .wangzhi {
+  color: #66563d;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* 第4个新闻 */
+.younew4 {
+  position: absolute;
+  right: 20px;
+  top: 1530px;
+  width: 305px;
+  height: 216px;
+  background: url(../images/backgroundyouce.jpg) no-repeat;
+}
+.younew4 .younewtubiao {
+  position: absolute;
+  left: 15px;
+  top: 33px;
+  background-image: url(../images/new.ico);
+  background-position: -4px -186px;
+  width: 30px;
+  height: 30px;
+}
+.younew4 h3 {
   margin-left: 50px;
   margin-top: 40px;
   font-size: 16px;

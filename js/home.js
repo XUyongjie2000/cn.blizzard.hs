@@ -79,3 +79,17 @@ $(document).scroll(function () {
 $("a").click(function () {
   $(document).scrollTop(0);
 });
+
+$(function () {
+  setInterval(getLoc, 3000);
+});
+
+function getLoc() {
+  if ($(".box").hasClass("xuanfuchuangma")) {
+    $(".box").removeClass("xuanfuchuangma");
+  } else {
+    $(".box").addClass("xuanfuchuangma");
+  }
+  console.log($(".box").hasClass("xuanfuchuangma"));
+  // })
+}
