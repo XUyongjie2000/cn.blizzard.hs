@@ -39,6 +39,20 @@
             <p>支持</p>
         </div>
     </div>
+    <!-- 手风琴 -->
+    <div class="Navbar-modalContent">
+        <nav>
+            <a href="" class="nav1"><img src="./images/nav1.jpg" alt=""></a>
+            <a href="" class="nav2"><img src="./images/nav2.jpg" alt=""></a>
+            <a href="" class="nav3"><img src="./images/nav3.jpg" alt=""></a>
+            <a href="" class="nav4"><img src="./images/nav4.jpg" alt=""></a>
+            <a href="" class="nav5"><img src="./images/nav5.jpg" alt=""></a>
+            <a href="" class="nav6"><img src="./images/nav6.jpg" alt=""></a>
+            <a href="" class="nav7"><img src="./images/nav7.jpg" alt=""></a>
+            <a href="" class="nav8"><img src="./images/nav8.jpg" alt=""></a>
+            <a href="" class="nav9"><img src="./images/nav9.jpg" alt=""></a>
+        </nav>
+    </div>
     <!-- tab切换栏 -->
     <div class="header">
 
@@ -394,6 +408,37 @@
                                 <span class="younewtubiao"></span>
                                 互动社区
                             </h3>
+                            <ul>
+                                <li>
+                                    <span class="weixin-ico"></span>
+                                    <a href="" class="weixin-ico1">
+                                        微信
+                                        <h2 class="weixin-ico2">订阅号</h2>
+                                    </a>
+                                    <a href="" class="weixin-ico3">
+                                        微信
+                                        <h2 class="weixin-ico4">服务号</h2>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="weixin-ico5"></span>
+                                    <a href="" class="weixin-ico6">新浪微博</a>
+                                </li>
+                                <li>
+                                    <span class="weixin-ico7"></span>
+                                    <a href="" class="weixin-ico8">手机版官网</a>
+                                </li>
+                                <li class="youxiang">
+                                    <h4 class="youxiangbiao">官方邮箱</h4>
+                                    <h4>hs@battlenet.com.cn</h4>
+                                </li>
+                                <li class="phone">
+                                    <h4 class="phonebiaoti">客服热线</h4>
+                                    <h4>0571-28090163</h4>
+                                    <img src="./images/xinwenshouwei.png" alt="">
+                                </li>
+
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -769,6 +814,51 @@
     <script src="./js/jquery.SuperSlide.2.1.3.js"></script>
     <script type="text/javascript" src="./js/lunbo.js"></script>
     <script src="./js/index.js"></script>
+
+    <script>
+        $(".jianianhua").on("click", function () {
+            $(".Navbar-modalContent").toggle();
+        });
+        $("Navbar-modalContent a").eq(0).animate({
+
+        }, 1000, function () {
+            $("Navbar-modalContent a").eq(1).animate({
+
+            }, 1000, function () {
+                $("Navbar-modalContent a").eq(2).animate({
+
+                }, 1000, function () {
+                    $("Navbar-modalContent a").eq(3).animate({
+
+                    }, 1000, function () {
+                        $("Navbar-modalContent a").eq(4).animate({
+
+                        }, 1000, function () {
+                            $("Navbar-modalContent a").eq(5).animate({
+
+                            }, 1000, function () {
+                                $("Navbar-modalContent a").eq(6).animate({
+
+                                }, 1000, function () {
+                                    $("Navbar-modalContent a").eq(7).animate({
+
+                                    }, 1000, function () {
+                                        $("Navbar-modalContent a").eq(8).animate({
+
+                                        }, 1000, function () {
+                                            $("Navbar-modalContent a").eq(9).animate({
+
+                                            })
+                                        })
+                                    })
+                                })
+                            })
+                        })
+                    })
+                })
+            })
+        })
+    </script>
 </body>
 
 </html>
