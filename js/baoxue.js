@@ -3,7 +3,7 @@ $(".jianianhua").on("click", function () {
 });
 let oBox2 = $("#blizzcon-navbar").offset().top;
 $(document).scroll(function () {
-  if ($(document).scrollTop() >= oBox2) {
+  if ($(document).scrollTop() >= 200) {
     $("#blizzcon-navbar").css({
       position: "fixed",
       top: -20,
