@@ -2169,7 +2169,7 @@ a {
 }
 /* 第一个新闻 */
 .younew1 {
-  z-index: 600;
+  z-index: 99;
   position: absolute;
   right: 20px;
   top: 45px;
