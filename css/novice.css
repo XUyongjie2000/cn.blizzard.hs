@@ -1,3 +1,19 @@
+html,
+body,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
 /* 导航栏 */
 .head {
   position: relative;
@@ -279,3 +295,876 @@
   overflow: hidden;
   z-index: 1;
 }
+/* 固定导航栏 */
+.Navigation-container {
+  z-index: 12;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+  height: 76px;
+  width: 100%;
+  max-width: 1603px;
+  /* background-color: red; */
+  background: url(../images/noviceback.png);
+}
+.Navigation-wrapper-zh {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+.Navigation-container:before {
+  background-image: url(../images/noviceback2.png);
+  background-size: 134px 73px;
+  background-position: top;
+  background-repeat: repeat-x;
+  left: -3px;
+  width: 134px;
+  height: 73px;
+  z-index: 0;
+}
+.Navigation-container:after,
+.Navigation-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+}
+.Navigation-container:after {
+  background-image: url(../images/noviceback1.png);
+  background-size: 134px 73px;
+  background-position: top;
+  background-repeat: repeat-x;
+  right: 0;
+  width: 134px;
+  height: 73px;
+  z-index: 0;
+}
+.Menu-roseLogo {
+  position: absolute;
+  top: -35px;
+  left: 10px;
+}
+.Menu-roseLogo img {
+  width: 260px;
+  height: 130px;
+}
+.Menu {
+  position: absolute;
+  top: 8px;
+  left: 270px;
+  width: 1000px;
+  height: 52px;
+}
+.Menu .Menu1 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu .Menu2 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu .Menu3 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu .Menu4 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu .Menu5 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu .Menu6 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu .Menu7 {
+  float: left;
+  width: 130px;
+  height: 52px;
+}
+.Menu li {
+  float: left;
+  width: 160px;
+  height: 52px;
+}
+/* 第一个菜单栏 */
+.Menu1-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu-icon--caret-down {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  margin-top: 2px;
+  text-align: left;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+  margin-left: 15px;
+  border-color: #fcd144;
+}
+.Menu-icon--caret-down:after,
+.Menu-icon--caret-down:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 10px;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  border-bottom: 12px solid #fcd144;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+.Menu-icon--caret-down:before {
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.Menu-icon--caret-down:after {
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.Menu1-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu .m1 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 0;
+}
+.Menu-dropdown1.Menu-dropdownList {
+  width: 160px;
+}
+.Menu-dropdown1 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdownList a {
+  width: 319px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fcd144;
+}
+.Menu1-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu-dropdown1:after,
+.Menu-dropdown1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown1:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown1:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+/* 第二个菜单栏 */
+.Menu2-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu2-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu2-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu .m2 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 52;
+}
+.Menu-dropdown2 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdown2:after,
+.Menu-dropdown2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown2:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown2:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+/* 第三个个菜单栏 */
+.Menu3-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu3-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu3-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu .m3 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 52;
+}
+.Menu-dropdown3 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdown3:after,
+.Menu-dropdown3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown3:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown3:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+/* 第4个个菜单栏 */
+.Menu4-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu4-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu4-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu .m4 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 52;
+}
+.Menu-dropdown4 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdown4:after,
+.Menu-dropdown4:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown4:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown4:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+/* 第5个个菜单栏 */
+.Menu5-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu5-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu5-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu .m5 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 52;
+}
+.Menu-dropdown5 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdown5:after,
+.Menu-dropdown5:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown5:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown5:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+/* 第5个个菜单栏 */
+.Menu6-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu6-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu6-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu .m6 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 52;
+}
+.Menu-dropdown6 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdown6:after,
+.Menu-dropdown6:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown6:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown6:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+/* 第5个个菜单栏 */
+.Menu7-list {
+  line-height: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu7-list:hover {
+  border-bottom: 5px solid #fcd144;
+}
+.Menu7-list span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fcd144;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Menu .m7 {
+  height: 52px;
+  width: 5px;
+  position: absolute;
+  background: url(../images/noviceback4.png);
+  top: 0;
+  left: 52;
+}
+.Menu-dropdown7 {
+  position: absolute;
+  top: 70px;
+  width: 319px;
+  height: 320px;
+  background: url(../images/noviceback5.png);
+  display: none;
+}
+.Menu-dropdown7:after,
+.Menu-dropdown7:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+}
+
+.Menu-dropdown7:before {
+  left: 30px;
+  right: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.Menu-dropdown7:after {
+  right: 70px;
+  left: auto;
+  content: "";
+  background-image: url(../images/noviceback6.png);
+  background-size: 17px 30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+}
+.free {
+  position: absolute;
+  z-index: 4;
+  right: 30px;
+  top: 8px;
+  width: 108px;
+  height: 57px;
+  background-image: url(../images/noviceback7.png);
+  background-size: 115px 56px;
+  background-position: top;
+  background-repeat: repeat-x;
+}
+.free:before {
+  background-image: url(../images/noviceback8.png);
+  background-size: 60px 57px;
+  background-position: top;
+  background-repeat: repeat-x;
+  width: 60px;
+  height: 57px;
+  left: -16px;
+  content: "";
+  position: absolute;
+  top: 0;
+}
+.free:after {
+  background-image: url(../images/noviceback9.png);
+  background-size: 60px 57px;
+  background-position: top;
+  background-repeat: repeat-x;
+  width: 60px;
+  height: 57px;
+  right: -22px;
+  content: "";
+  position: absolute;
+  top: 0;
+}
+.button img {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  left: 0;
+}
+.kv_content {
+  height: 882px;
+  padding: 100px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.kv_content_logo {
+  position: relative;
+  top: 40px;
+}
+.kv_content_logo img {
+  max-width: 100%;
+  margin: auto;
+}
+.kv_content_text {
+  line-height: 1.4;
+  margin-top: 2em;
+}
+._font_size_30 {
+  font-size: 30px;
+}
+._font_color_white {
+  color: white;
+}
+.kv_content_text {
+  line-height: 1.4;
+  margin-top: 2em;
+}
+._font_bold {
+  font-weight: bold;
+}
+.kv_content_text p:first-child {
+  margin-bottom: 0.5em;
+}
+#wraper * {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.85);
+}
+._font_size_16 {
+  font-size: 16px;
+}
+._font_color_c2a865 {
+  color: #c2a865;
+}
+.kv_content_video {
+  padding: 50px 0;
+}
+.kv_content_video_tablet {
+  height: 106px;
+}
+.video_play_icon {
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  cursor: pointer;
+  background: url(../images/novicep2.png) center top;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
+.video_play_icon:hover {
+  background-position: 0 -98px;
+}
+.show_for_desktop {
+  color: #ffffff;
+}
+.novice2 {
+  width: 1260px;
+  height: 700px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  display: none;
+}
+.novice3 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: none;
+}
+.modalCloseIcon {
+  top: 52px;
+  right: 22px;
+  position: absolute;
+  font-size: 36px;
+  color: #fcd144;
+  cursor: pointer;
+  z-index: 9999999;
+}
+.xiazai {
+  position: absolute;
+  top: 660px;
+  left: 780px;
+}
+.beijing2 {
+  width: 1903px;
+  height: 774px;
+}
+.beijing1 {
+  margin-top: -290px;
+  width: 1903px;
+  height: 774px;
+}
+.module_line1:before {
+  display: block;
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 865px;
+  height: 21px;
+  background: url(../images/novicep4.jpg) repeat-x center;
+  -webkit-box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.info_content {
+  width: 1713px;
+  margin: auto;
+  padding: 0 5%;
+  position: absolute;
+  top: 1060px;
+  height: 426px;
+}
+.info_content_inner {
+  width: 622px;
+  height: 426px;
+}
+.info_content_text_title {
+  margin: 0.96em 0;
+  white-space: nowrap;
+  font-size: 50px;
+}
+.info_content_text_info {
+  margin-top: 10px;
+  margin-bottom: 1.5em;
+  line-height: 1.8;
+  font-size: 18px;
+}
+.module_line2:before {
+  display: block;
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 1550px;
+  height: 21px;
+  background: url(../images/novicep4.jpg) repeat-x center;
+  -webkit-box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.hreolunbo {
+  width: 1903px;
+  height: 712px;
+  margin-top: -325px;
+}
+
+/* 业务代码 */
+.slider {
+  position: relative;
+  width: 1903px;
+  height: 806px;
+  overflow: hidden;
+}
+.slider ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 806px;
+  width: 1000000px;
+}
+.slider ul img {
+  /* transform: translateX(-290px); */
+  /* translate: tra; */
+  /* transition: all 2s; */
+  animation: auto 8s infinite;
+}
+.slider ul li {
+  float: left;
+}
+
+.slider a {
+  display: block;
+}
+.slider ol {
+  position: absolute;
+  left: 0;
+  bottom: 120px;
+  width: 100%;
+  text-align: center;
+}
+.slider ol li {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffce4b;
+  background-color: #ffce4b;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+.slider ol li.active {
+  width: 46px;
+  border: 2px solid #f38430;
+  background-color: #f38430;
+  border-radius: 10px;
+}
+/* 
+@keyframes auto {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-290px);
+  }
+} */
