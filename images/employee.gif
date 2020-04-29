@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchKey</Code>
+  <Message>对象“3/icons/employee.gif”不存在，请指定正确的对象</Message>
+  <Resource>/hearthstone/3/icons/employee.gif</Resource>
+  <RequestId>df658363-ea87-41b5-9b6c-60aed2e5add4</RequestId>
+</Error>

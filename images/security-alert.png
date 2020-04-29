@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchKey</Code>
+  <Message>对象“1/frame/auth/security-alert.png”不存在，请指定正确的对象</Message>
+  <Resource>/blz/1/frame/auth/security-alert.png</Resource>
+  <RequestId>df09e0f2-bff4-4608-937e-0a450d80f681</RequestId>
+</Error>

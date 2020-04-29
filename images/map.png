@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchKey</Code>
+  <Message>对象“1/frame/map.png”不存在，请指定正确的对象</Message>
+  <Resource>/blz/1/frame/map.png</Resource>
+  <RequestId>3844e320-8ecd-405d-9b56-d64a46fc5242</RequestId>
+</Error>
