@@ -3029,22 +3029,3 @@ a {
     transform: translateY(0);
   }
 }
-/* 第二个手风琴 */
-/* .Navebar-modalContent {
-  background-color: #151922;
-  width: 1900px;
-  height: 327px;
-  z-index: 1;
-  position: fixed;
-  display: none;
-}
-.accordion {
-  position: absolute;
-  width: 194px;
-  height: 275px;
-}
-.accordion1 {
-  float: left;
-  width: 194px;
-  height: 275px;
-} */
